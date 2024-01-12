@@ -19,6 +19,8 @@ const isTwoOdd = (n1 % 2) + (n2 % 2) + (n3 % 2) + (n4 % 2) >= 2;
 // This time, we use the OR operator to check
 // if ANY of the numbers is larger than 25.
 
+//Changed greater than to less than in order to not have to use the Not operator
+
 const isOver25 = n1 < 25 || n2 < 25 || n3 < 25 || n4 < 25;
 
 
